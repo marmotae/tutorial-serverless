@@ -7,5 +7,5 @@ En la ruta de abstracción de la nube, la última generación de servicios en la
 ![Modelo de Abstracción](./abstraccion_serverless.png)
 
 ## Secciones
-1. ![Preparando la base de datos cloudant](./Cloudant/TUTORIAL.md)
-2. Creando las funciones sobre demanda
+1. [Preparando la base de datos cloudant](./Cloudant/TUTORIAL.md)
+2. [Creando las funciones sobre demanda](./Functions/TUTORIAL.md)
