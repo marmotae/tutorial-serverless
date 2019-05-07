@@ -19,3 +19,7 @@
 8. Luego de crear la base de datos, regresamos a la pantalla que contiene la ficha de cloudant y seleccionamos la opción __Service Credentials__ del menú que se encuentra del lado izquierdo ![Configurando Credenciales](./0008.png)
 
 9. Dentro de la pantalla de configuración de credenciales, damos click sobre el botón de crear credenciales ![Creando Credenciales](./0009.png)
+
+10. Aceptamos la configuración default de las credenciales y damos click sobre el botón de agregar ![Agregando Credenciales](./0010.png)
+
+11. Finalmente al regresar a la pantalla anterior, damos click sobre el botón de __View credentials__ lo que despliega las credenciales recien creadas. Acto seguido, damos click en el icono de copiar y copiamos las credenciales a un archivo de texto para futura referencia ![Desplegando Credenciales](./0011.png)
