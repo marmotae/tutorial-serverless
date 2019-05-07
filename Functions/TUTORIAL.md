@@ -6,6 +6,6 @@ Como modelo de operación es sumamente relevante, pues se paga únicamente con b
 
 ## Creación de funciones
 Para este tutorial crearemos 3 funciones:
-1. [Acción para agregar registros](./CrearRegistros.md)
+1. [Acción para agregar registros](./CrearRegistro.md)
 2. [Acción para enlistar registros](./EnlistaRegistros.md)
 3. [Acción para consultar registros por calorías](./ConsultaRegistros.md)
