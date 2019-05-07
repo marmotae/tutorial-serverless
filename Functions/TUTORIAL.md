@@ -33,3 +33,11 @@ function main(params) {
   };
 }
 ```
+
+6. Una vez capturado el código, lo salvamos dando click en el botón de salvar ![Salvar](./0005.png)
+
+7. Una vez que hemos salvado, debemos seleccionar la opción de __Enclosing Sequences__ del menú del la izquierda. ![Enclosing](./0006.png)
+
+8. Como aún no hemos creado una secuencia, debemos dar click sobre el botón de __Add to Sequence__. ![Add to Sequence](./0007.png)
+
+9. En la pantalla de creación de secuencia, debemos asegurarnos de que seleccionamos la opción __Create New__, luego ponemos el nombre __salva-receta__ y finalmente hacemos click en __Create & add__ ![Create Sequence](./0008.png)
