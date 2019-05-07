@@ -13,7 +13,8 @@ Como modelo de operación es sumamente relevante, pues se paga únicamente con b
 
 4. Para crear la acción debemos llenar la ficha de meta datos, para lo que crearemos el nombre (prepara-datos-receta) y acto seguido damos click en el botón de crear ![Boton Create Actions](./0004.png)
 
-5. Al entrar al editor de código, debemos capturar los siguientes datos ```
+5. Al entrar al editor de código, debemos capturar los siguientes datos 
+```
 /**
  * Prepara la entrada al recetario para ser persistida
  */
