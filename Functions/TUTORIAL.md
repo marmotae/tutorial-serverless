@@ -41,3 +41,31 @@ function main(params) {
 8. Como aún no hemos creado una secuencia, debemos dar click sobre el botón de __Add to Sequence__. ![Add to Sequence](./0007.png)
 
 9. En la pantalla de creación de secuencia, debemos asegurarnos de que seleccionamos la opción __Create New__, luego ponemos el nombre __salva-receta__ y finalmente hacemos click en __Create & add__ ![Create Sequence](./0008.png)
+
+10. Al finalizar la creación de la secuencia, la seleccionamos para agregar otros pasos. ![Edit Sequence](./0010.png)
+
+11. Al entrar a editar la secuencia, vemos la acción anterior ya dentro de la secuencia. Ahora agregaremos una acción adicional para lo que daremos click en el botón de __Add__ ![Add](./0011.png)
+
+12. Al crear una acción tenemos varias alternativas. En este caso, seleccionamos inicialmente la opción __Use Public__ y dentro de esta, la opción de __Cloudant__ ![Add Public](./0012.png)
+
+13. Una vez creado, se nos muestra distintas opciones de acción con cloudant, para lo que seleccionaremos la opción para crear un nuevo documento, __create-document__ ![Create Document](./0013.png)
+
+14. Ahora debemos especificar una conexion al la base de datos. Como aun no hemos creado una, debemos seleccionar la opción __New Binding__ ![Create Binding](./0014.png)
+
+15. Una vez seleccionado, debemos nombrar la conexion, en este caso __binding-recetario__ y en la información de instancia seleccionamos la opción para usar credenciales previas ![Binding Params](./0015.png)
+
+16. Ahora debemos proporcionar los parametros generados durante la creación de las credenciales, tomando de ellas el Username, el Password y el Host. Para el nombre de la base de datos usaremos el nombre definido previamente, que fue __recetario__. Luego de llenar los datos, damos click en el botón de __Add__ ![Binding Credentials](./0016.png)
+
+17. Al agregar, regresamos a la pantalla de secuencia y damos click en el botón de __Save__ para grabar los cambios. ![Save Sequence](./0017.png)
+
+18. Para probar, ahora deberemos generar una entrada. Para hacer esto debemos crear unos parámetros para lo que daremos click en el botón de __Change Input__ ![Change Input](./0018.png)
+
+19. Ahora en el dialogo que nos aparece, debemos capturar la siguiente estructura json, al final presionamos __Apply__ para salvar el parámetro
+```
+{
+  "nombre": "Chilaquiles con Claras",
+  "calorias": "500",
+  "preparacion": "Ejemplo"
+}
+```
+20. Ahora damos click sobre el botón de __Invoke__ para probar nuestra primera función ![Change Input](./0020.png)
